@@ -17,7 +17,7 @@ namespace aicoffi.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            System.Threading.Thread.Sleep(600);
+            System.Threading.Thread.Sleep(200);
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
             // Create your application here
         }

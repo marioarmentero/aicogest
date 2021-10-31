@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aicoffi.Servicios;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,8 +10,9 @@ namespace aicoffi
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            DependencyService.Register<LoginService>();
+            MainPage = new NavigationPage(new MainPage());
+           // MainPage = new MainPage();
         }
 
         protected override void OnStart()
