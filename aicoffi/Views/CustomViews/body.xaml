@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aicoffi.Views.CustomViews.body">
+  <ContentView.Content>
+        <StackLayout BackgroundColor="#c7bdba">
+            <Grid Padding="10, 5, 5, 5" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="#c7bdba">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                
+
+                </Grid.RowDefinitions>
+                <ImageButton 
+                   Grid.Column="0"    
+                   WidthRequest="60"
+                    BackgroundColor="Transparent"                   
+                    Source="vabowlico.png"
+                    HeightRequest="100"                  
+                   VerticalOptions="Center"
+                    HorizontalOptions="Start">
+                </ImageButton>
+                <Label  x:Name="lblTitle" Padding="10,0,0,0" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center"  Text="Vabowl Fanny Foods Sl." BackgroundColor="#c7bdba" FontFamily="Century Gothic.TTF" FontSize="20" TextColor="Black"/>
+                <ImageButton 
+                   Grid.Column="0"    
+                   WidthRequest="60"
+                    BackgroundColor="Transparent"                   
+                    Source="esquinaico.png"
+                    HeightRequest="80"                  
+                   VerticalOptions="Center"
+                    HorizontalOptions="End">
+                </ImageButton>
+                
+                <Frame Padding="5,1,1,1" Grid.Row="1" Grid.Column="0" HasShadow="false" BorderColor="#c7bdba" BackgroundColor="#306eb5"  CornerRadius="16" VerticalOptions="Fill">
+
+                    <Label  x:Name="l31" Padding="10,0,0,0" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center"  Text="Toda la gloria del mundo cabe en un grano de maiz" BackgroundColor="#306eb5" FontFamily="Century Gothic.TTF" FontSize="18" TextColor="White"/>
+
+                </Frame>
+               
+                <Frame Padding="0,0,0,0" Grid.Row="2" HasShadow="false"  Grid.Column="0" BorderColor="#c7bdba"  BackgroundColor="#d5cacb"  CornerRadius="16" VerticalOptions="Fill">
+                    
+                </Frame>
+                <Frame Padding="0,0,0,0" Grid.Row="3" HasShadow="false"  Grid.Column="0" BorderColor="#c7bdba"  BackgroundColor="#d5cacb"  CornerRadius="16" VerticalOptions="Fill">
+                                   
+                </Frame>
+                <Frame Padding="0,0,0,0" Grid.Row="4" HasShadow="false"  Grid.Column="0" BorderColor="#c7bdba"  BackgroundColor="#d5cacb"  CornerRadius="16" VerticalOptions="Fill">
+
+                </Frame>
+                <Frame Padding="0,0,0,0" Grid.Row="5" HasShadow="false"  Grid.Column="0" BorderColor="#c7bdba"  BackgroundColor="#d5cacb"  CornerRadius="16" VerticalOptions="Fill">
+
+                </Frame>
+            </Grid>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

@@ -24,7 +24,7 @@
             </Grid.RowDefinitions>        
             <Label  x:Name="lblTitle" Padding="0,0,0,0" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Start"  Text="   Inicio de sesión" BackgroundColor="#c7bdba" FontFamily="Century Gothic.TTF" FontSize="30" TextColor="Black"/>
            
-            <Frame Padding="5,1,1,1" Grid.Row="1" Grid.Column="0" BorderColor="White" BackgroundColor="#c7bdba"  CornerRadius="6" VerticalOptions="Fill">
+            <Frame Padding="5,1,1,1" Grid.Row="1" Grid.Column="0" BorderColor="White" BackgroundColor="#c7bdba"  CornerRadius="10" VerticalOptions="Fill">
            
                 <Entry  x:Name="txtEmail"  Placeholder="Introducir Email" VerticalTextAlignment="Center" BackgroundColor="#c7bdba" PlaceholderColor="White" Style="{StaticResource NormalFont}" FontSize="20" TextColor="Black"/>
             </Frame>

@@ -27,7 +27,24 @@ namespace aicoffi
 
         private void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("OK", "Subscripción realizada", "OK");
+
+            Login log = new Login
+            {
+                Email = txtEmail.Text,
+                Password = txtPass.Text
+            };
+            if ((log.Email == "mario") & (log.Password =="1234"))
+            {
+                Navigation.PushAsync(new principal());
+            }
+            else
+            {
+                DisplayAlert("Fail", "Contraseña Imcorrecta", "OK");
+            }
+
+           
+
+            //DisplayAlert("OK", "Subscripción realizada", "OK");
             // Navigation.PushAsync(new registerPage());
             //  throw new NotImplementedException();
         }
